@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Nav.css";
 
+
 function Nav() {
   //scroll and bring black bar
 
@@ -20,7 +21,7 @@ function Nav() {
     <div className={`nav ${show && "nav__black"}`}>
       <img
         className="nav__logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_Netflix.png/1600px-Logo_Netflix.png"
+        src="https://cloudfront-us-east-1.images.arcpublishing.com/gray/3HCWZMP7PFGY3OJJPFHIX5O2VI.png"
         alt="Netflix Logo"
       />
 
